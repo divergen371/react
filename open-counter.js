@@ -1,4 +1,6 @@
-let COUNT = 0;
-const increment = () => {
-  return COUNT += 1;
+const counter = () => {
+  let COUNT = 0;
+  const increment = () => {
+    return (COUNT += 1);
+  };
 };
