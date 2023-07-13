@@ -1,4 +1,5 @@
 "use strict";
+// インターフェースで定義
 {
     const add = function (n, m) {
         return n + m;
@@ -6,6 +7,7 @@
     const sub = (n, m) => n - m;
     console.log(add(1, 2), sub(5, 4));
 }
+// インラインで定義
 {
     const add = function (n, m) {
         return n + m;
