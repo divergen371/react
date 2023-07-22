@@ -4,6 +4,6 @@ interface Resident {
   mom?: Resident;
 }
 
-const getMomName = (resident: Resident): string => resident.mom.lastName;
+const getMomName = (resident: Resident): string => resident.mom!.lastName;
 const patty = { familyName: "Hope-Rabbit", lastName: "patty" };
 console.log(getMomName(patty));
